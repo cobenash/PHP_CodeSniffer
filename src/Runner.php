@@ -346,7 +346,7 @@ class Runner
      * @throws \PHP_CodeSniffer\Exceptions\DeepExitException
      * @throws \PHP_CodeSniffer\Exceptions\RuntimeException
      */
-    private function run()
+    public function run()
     {
         // The class that manages all reporters for the run.
         $this->reporter = new Reporter($this->config);
