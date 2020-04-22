@@ -36,5 +36,10 @@
     "bin": [
         "bin/phpcs",
         "bin/phpcbf"
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHP_CodeSniffer\\": "src/"
+        }
+    }
 }
